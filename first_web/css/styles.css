@@ -1,0 +1,190 @@
+/* general */
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body
+{
+    font-family:'Roboto',Arial, Helvetica, sans-serif;
+    background: #7F7FD5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.btn-blue
+{
+    background: #6C63FF;
+    color: #fff;
+    width: 30%;
+    border: solid 1px #6C63FF;
+}
+.btn-blue:hover
+{
+    background: #6b63ffb0;
+    color: #fff;
+    transform: translateY(-15px) scale(1.1);
+    box-shadow: 0px 15px 10px 2px #6C63FF;
+    border: solid 1px rgba(255, 255, 255, 0.4);
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 0.8em 0.5em;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all .3s ease;
+    margin: 0px 2px;
+}
+
+.btn-white
+{
+    background: none;
+    border: solid 1px #fff;
+}
+
+.btn-white:hover
+{
+    background: #fff;
+    color: #6C63FF;
+    border: solid 1px #fff;
+}
+
+img
+{
+    width: 100%;
+}
+
+.container
+{
+    max-width: 80em;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.container>section
+{
+    margin: 4em 0em;
+}
+
+.title
+{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.sub-title
+{
+    font-weight: lighter;
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.text-white
+{
+    color: #fff;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+/* header */
+header
+{
+    background: rgba(255, 255, 255, .2);
+    padding: .2em 0em;
+    height: 4em;
+}
+header nav
+{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    height: 100%;
+}
+
+header .logo
+{
+    width: 3em;
+    margin-right: 20px;
+}
+
+
+/* main */
+
+.main .presentation
+{
+    display: flex;
+}
+
+.main .presentation>section
+{
+    width: 50%;
+    padding: 0em 1.5em;
+}
+
+.main .presentation .profile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.better
+{
+    position: relative;
+}
+
+.better>section
+{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+.jumbotron
+{
+    background:#6C63FF ;
+    padding: 1em 0em;
+}
+
+/*free time*/
+
+.free-time .cards
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    background: rgba(255, 255, 255, .2);
+    padding: 2em 0em;
+    border-radius: 5px;
+}
+
+.card
+{
+    background: #fff;
+    border-radius: 15px;
+    width: 20em;
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.card .card-image
+{
+    height: 20em;
+}
+
+
+/* footer */
+
+footer
+{
+    background: #6C63FF;
+    padding: 1em 0em;
+}
