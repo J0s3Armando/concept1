@@ -5,6 +5,7 @@
     * Pure css
     * Icons of font awesome
     * Fonts of google fonts
-    * SVG images of undrown.co
+    * SVG images of undrown.co 
+
 This project is just a practice
 You can see it on https://j0s3armando.github.io/concept1/
