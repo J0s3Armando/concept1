@@ -1,7 +1,7 @@
 # concept1
 ## This is a web design concept
 ### Tecnologies used
-    - Html
+    * Html
     - Pure css
     - Icons of font awesome
     - Fonts of google fonts
